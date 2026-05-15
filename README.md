@@ -68,6 +68,6 @@ screenshots/
 
 ## Notes
 
-- Source dataset sanitised at ingest. No PII in the notebook or sheets.
+- Dataset is anonymized lab data shared by Johnson Matthey (in collaboration with Brainster) so the team could surface operational insights. No PII in the notebook or sheets.
 - GCP service account keys and SSH private keys are excluded from this repository. Rotate any credentials before any redeploy.
 - The EC2 instance was decommissioned after delivery. Cron configuration is documented in `cloud/README.md` for reproducibility.
